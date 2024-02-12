@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="Landing.css">
+</head>
+<body>
+    <!-- Header -->
+        <div class="header fixed-top">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="logo d-flex align-items-center">
+                        <img src="/home/rguktongole/sriramase/login/pre.png" style="width:100px;" alt="Your Logo">
+                        <h3 class="mb-0"><b>LANDING PAGE</b></h3>
+                    </div>
+                </div>
+                <div class="col-md-6.4 text-left" >
+                    <a href="#home" style="color:white;text-decoration:none" class="btn btn-link"><i class="fas fa-home"></i> HOME</a>
+                    <a href="#portfolio" style="color:white;text-decoration:none;font-size: 19px;" class="btn btn-link">SERVICES</a>
+                    <a href="#about" style="color:white;text-decoration:none" class="btn btn-link"><i class="fas fa-info-circle"></i> ABOUT US</a>
+                     <a href="#contact" style="color:white;text-decoration:none" class="btn btn-link"><i class="fas fa-info-circle"></i> CONTACT US</a>
+
+                    <button class="login-btn btn btn-outline-light" id="open-login-button">LOG IN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="home" style="position: relative;">    
+        <img src="/home/rguktongole/lan1.jpg" style="width: 100%; height: 670px;" class="img-fluid">
+        <div style="position: absolute; top: 50%; left: 0; transform: translate(-50%, -50%); color: white;  padding:0 10px 10px 670px">
+            <h1 style="font-size: 40px; font-weight: bold; background: linear-gradient(to right, #ffd700, #ffa07a, #ff69b4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">WELCOME TO, LANDING PAGE</h1>
+            <p style="font-size:20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.nandini gobburi</p>
+            <button class="login-btn btn btn-outline-light" id="open-login-button">Know More</button>
+        </div>
+    </div>
+    <div id="portfolio">
+    <section  class="portfolio">
+        <hr class="divider">
+        <h2 class="section-title">IMAGE GALLERY</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/home/rguktongole/Downloads/img1.jpeg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/img6.jpeg" alt="Image 6">
+        </div>
+        <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/img2.jpeg" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/img3.jpeg" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/img4.jpeg" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/img5.jpeg" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/1(1).jpg" alt="Image 6">
+        </div>
+        <div class="gallery-item">
+            <img src="/home/rguktongole/Downloads/img6.jpeg" alt="Image 6">
+        </div>  
+    </div>
+                   <h1> <button class="login-btn btn btn-outline-light" id="open-login-button" style="border-color:black;">Load More</button></h1>
+</section>
+</div>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Landing Page, your trusted source for accurate services. We are dedicated to providing you with the most reliable and up-to-date information on various services and their rules.
+        Our team of experts is committed to using advanced data analysis and predictive modeling techniques to help you understand your health better. We believe that knowledge is power, and by leveraging the power of technology, we aim to empower individuals to make informed decisions about their health and well-being.
+        Whether you're looking for information about a specific disease, seeking guidance on prevention, or curious about the latest advancements in the field of medical research, Disease Prediction is here to assist you on your journey to a healthier life.
+        Thank you for choosing Disease Prediction as your health companion. If you have any questions or feedback, please feel free to contact us.</p>
+        <button class="login-btn btn btn-outline-light" id="open-login-button1">READ MORE</button>
+    </section>
+    <section id="contact" class="bg">
+         <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Form</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Location</h2>
+                <div class="map-container">
+                    <iframe style="width%100;height:480px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3136.086509754242!2d-122.41941618460535!3d37.77492957975841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580dd21b465b1%3A0x7186a50c562a9a6d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1602721425149!5m2!1sen!2sus" 
+                        frameborder="0" style="border:2px;" allowfullscreen="" aria-hidden="false" tabindex="0" width=100% height=100% ></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="#" class="text-white">Privacy Policy</a> |
+                    <a href="/home/rguktongole/term.html" class="text-white">Terms of Use</a> |
+                    <a href="/home/rguktongole/contactme.html" style="color:blue;" class="text-white" >Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
